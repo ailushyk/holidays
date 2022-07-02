@@ -1,11 +1,15 @@
-import React from 'react';
+import React from 'react'
+import { Button } from './ui'
 
 function App() {
   return (
     <div className="text-center">
-      Hello Alex
+      <p className="mb-4">Hello Alex</p>
+      <div className="flex justify-center items-center">
+        <Button onClick={() => 'test click'}>ok</Button>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
