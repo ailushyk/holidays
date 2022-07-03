@@ -1,14 +1,15 @@
 import React from 'react'
-import { Button } from './ui'
+import { Block } from './ui'
+import { Route, Routes } from 'react-router-dom'
+import DashboardPage from './pages/dashboard'
 
 function App() {
   return (
-    <div className="text-center">
-      <p className="mb-4">Hello Alex</p>
-      <div className="flex justify-center items-center">
-        <Button onClick={() => 'test click'}>ok</Button>
-      </div>
-    </div>
+    <Block>
+      <Routes>
+        <Route path="/" element={<DashboardPage />} />
+      </Routes>
+    </Block>
   )
 }
 
