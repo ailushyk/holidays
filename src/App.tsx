@@ -1,5 +1,5 @@
 import React from 'react'
-import { Block } from './ui'
+import { Block } from './elements'
 import { Route, Routes } from 'react-router-dom'
 import DashboardPage from './pages/dashboard'
 

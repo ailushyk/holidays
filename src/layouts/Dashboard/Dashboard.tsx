@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import { Block, Text } from '../../ui'
+import { Block, Text } from '../../elements'
 import { Header } from '../../components'
 
 interface Props {

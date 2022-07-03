@@ -1,4 +1,4 @@
-import { Block, Text } from '../../ui'
+import { Block, Text } from '../../elements'
 import React, { FC } from 'react'
 
 interface Props {
