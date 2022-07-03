@@ -3,7 +3,7 @@ import { TextBase } from './TextBase'
 import cn from 'classnames'
 
 interface Props {
-  children: string
+  children: string | number
   uppercase?: boolean
 }
 
