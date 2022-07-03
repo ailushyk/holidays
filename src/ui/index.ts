@@ -1,3 +1,4 @@
+export type BlockDirection = 'col' | 'row'
 export type ColorValue = 'white' | 'positive' | 'negative'
 export type TextType = 'p' | 'span'
 
