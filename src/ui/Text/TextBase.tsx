@@ -2,7 +2,7 @@ import React, { FC } from 'react'
 import { TextType } from '../index'
 
 export interface TextBaseProps {
-  children: string
+  children: string | number
   className?: string
   as?: TextType
 }
